@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+}
+
+.outer {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    color: #ecf0f1;
+    letter-spacing: 5px;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.signup-box {
+    border: solid;
+    border-radius: 15px;
+    border-color: #bdc3c7;
+    background-color: transparent;
+    text-align: center;
+    color: #ecf0f1;
+    padding: 10px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.signup-box:focus {
+    transition: border, color;
+    outline: 0;
+    border-color: #ecf0f1;
+    color: #ecf0f1;
+}
