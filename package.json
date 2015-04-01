@@ -7,7 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "body-parser": "^1.12.2",
     "express": "~4.9.x",
     "jade": "^1.9.2"
   },
