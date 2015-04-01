@@ -1,4 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
 
 body {
     background-color: #222;
@@ -10,37 +20,32 @@ body {
 }
 
 a {
+    text-decoration: none;
     color: #FFF;
+}
+
+.outer {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .logo {
     width: 200px;
     height: auto;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -100px;
-    margin-top: -150px;
     opacity: 1;
 }
 
 .header {
-    width: 500px;
-    margin-left: -250px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    margin-top: 90px;
     letter-spacing: 2px;
 }
 
 .subheader {
-    width: 500px;
-    margin-left: -250px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    margin-top: 114px;
     font-size: 14px;
     color: #AAA;
 }
